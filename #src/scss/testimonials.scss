@@ -1,0 +1,132 @@
+.testimonials {
+  padding: 100px 0;
+  background: #203ca7;
+  color: #fff;
+  font-family: "SF Pro", Arial, Helvetica, sans-serif;
+
+  // .testimonials__title
+
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+  }
+
+  // .testimonials__body
+
+  &__body {
+  }
+
+  // .testimonials__text
+
+  &__text {
+    font-family: "Playfair";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    margin-bottom: 46px;
+  }
+
+  // .testimonials__author
+
+  &__author {
+    padding-bottom: 46px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    display: grid;
+    grid-template-columns: 64px auto;
+    grid-column-gap: 16px;
+    align-items: center;
+  }
+
+  // .testimonials__author-foto
+
+  &__author-foto {
+    grid-column: 1 / 2;
+    grid-row: 1 /3;
+  }
+
+  // .testimonials__author-name
+
+  &__author-name {
+    grid-column: 2 / 3;
+    grid-row: 1 /2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.44;
+  }
+
+  // .testimonials__author-work
+
+  &__author-work {
+    grid-column: 2 / 3;
+    grid-row: 2 /3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.62);
+  }
+
+  // .testimonials__controls
+
+  &__controls {
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .testimonials__toggles
+
+  &__toggles {
+  }
+
+  // .testimonials__toggle
+
+  &__toggle {
+    background: transparent;
+    outline: none;
+    border: none;
+  }
+
+  // .testimonials__toggle-left
+
+  &__toggle-left {
+  }
+
+  // .testimonials__toggle-left-svg
+
+  &__toggle-left-svg {
+  }
+
+  // .testimonials__toggle-right
+
+  &__toggle-right {
+  }
+
+  // .testimonials__toggle-right-svg
+
+  &__toggle-right-svg {
+  }
+
+  // .testimonials__numbers
+
+  &__numbers {
+    font-family: "Playfair";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.44;
+  }
+
+  // .testimonials__number-min
+
+  &__number-min {
+  }
+
+  // .testimonials__number-max
+
+  &__number-max {
+  }
+}

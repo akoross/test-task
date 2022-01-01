@@ -1,0 +1,124 @@
+.work-flow {
+  padding: 150px 0;
+  // .work-flow__header
+
+  &__header {
+    margin-bottom: 120px;
+  }
+
+  // .work-flow__title
+
+  &__title {
+    font-family: "SF Pro", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+    color: #222222;
+  }
+
+  // .work-flow__text-bolt
+
+  &__text-bolt {
+    font-family: "Playfair";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: #222222;
+  }
+
+  // .work-flow__cards
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  // .work-flow__card
+
+  &__card {
+    flex: 0 0 260px;
+    height: 350px;
+    padding: 0;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0px 8px 32px rgba(34, 34, 34, 0.14);
+
+      & > *:not(:first-child) {
+        z-index: 100;
+        position: relative;
+        bottom: 30px;
+        background: #fff;
+      }
+
+      & > .work-flow__card-name {
+        padding-top: 12px;
+      }
+
+      & > .work-flow__card-social {
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+    }
+  }
+
+  // .work-flow__card-foto
+
+  &__card-foto {
+    margin-bottom: 20px;
+
+    & img {
+      width: fit-content;
+    }
+  }
+
+  // .work-flow__card-name
+
+  &__card-name {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.44;
+    text-align: center;
+    color: #222222;
+  }
+
+  // .work-flow__card-stek
+
+  &__card-stek {
+    margin-bottom: 22px;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(34, 34, 34, 0.62);
+  }
+
+  // .work-flow__card-social
+
+  &__card-social {
+    display: none;
+  }
+
+  // .work-flow__card-social-link
+
+  &__card-social-link {
+    margin-right: 16px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  // .work-flow__card-social-svg
+
+  &__card-social-svg {
+  }
+}

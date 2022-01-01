@@ -1,0 +1,39 @@
+@mixin font($font_name, $file_name, $weight, $style) {
+  @font-face {
+    font-family: $font_name;
+    font-display: swap;
+    src: url("../fonts/#{$file_name}.woff") format("woff"),
+      url("../fonts/#{$file_name}.woff2") format("woff2");
+    font-weight: #{$weight};
+    font-style: #{$style};
+  }
+}
+@import "normalize.scss";
+@import "fonts";
+@import "header.scss";
+@import "burger";
+@import "main";
+@import "promo";
+@import "about";
+@import "featured";
+@import "our-work";
+@import "services";
+@import "work-flow";
+@import "testimonials";
+@import "blog-posts";
+@import "footer";
+
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 16px;
+  background: #fff;
+
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  max-width: 1160px;
+}

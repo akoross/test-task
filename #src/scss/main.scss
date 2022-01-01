@@ -1,0 +1,49 @@
+.main {
+  &__promo {
+    background: url("../img/promo-bg@2.webp") no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    font-family: "SF Pro";
+    min-width: 320px;
+    padding: 472px 0 84px;
+  }
+
+  // .main__about
+
+  &__about {
+    & .container {
+      border-bottom: 2px solid #dedede;
+    }
+  }
+
+  // .main__featured
+
+  &__featured {
+  }
+
+  // .main__our-work
+
+  &__our-work {
+  }
+
+  // .main__services
+
+  &__services {
+  }
+
+  // .main__work-flow
+
+  &__work-flow {
+  }
+
+  // .main__testimonials
+
+  &__testimonials {
+  }
+
+  // .main__blog-posts
+
+  &__blog-posts {
+  }
+}

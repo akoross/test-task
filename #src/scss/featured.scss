@@ -1,0 +1,193 @@
+.featured {
+  padding-top: 150px;
+  // .featured__title
+
+  &__title {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+    margin-bottom: 32px;
+    color: #222222;
+  }
+
+  // .featured__slider
+
+  &__slider {
+  }
+
+  // .featured__previous
+
+  &__previous {
+  }
+}
+.container {
+}
+.row {
+}
+.slider-featured {
+  display: flex;
+  justify-content: space-between;
+  // .slider-featured__list
+
+  &__list {
+    display: flex;
+    margin-bottom: 64px;
+  }
+
+  // .slider-featured__item
+
+  &__item {
+    margin-right: 28px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  // .slider-featured__link
+
+  &__link {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    text-transform: uppercase;
+    color: rgba(34, 34, 34, 0.62);
+
+    &.active {
+      color: rgba(34, 34, 34, 1);
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 22px;
+        height: 2px;
+        background: #203ca7;
+      }
+    }
+  }
+
+  // .slider-featured__arrows
+
+  &__arrows {
+  }
+
+  // .slider-featured__arrow-left
+
+  &__arrow-left {
+  }
+
+  // .slider-featured__arrow
+
+  &__arrow {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  // .slider-featured__arrow-right
+
+  &__arrow-right {
+  }
+
+  // .slider-featured__arrow-swg
+
+  &__arrow-svg {
+    fill: #203ca7;
+  }
+}
+.active {
+}
+.previous {
+  display: flex;
+  // .previous__list
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  // .previous__item
+
+  &__item {
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .previous__hover {
+        display: flex;
+        padding: 32px 42px;
+        width: 100%;
+        height: 100%;
+        background: rgba(32, 60, 167, 0.8);
+        flex-direction: column;
+        font-family: "SF Pro", Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+
+  // .previous__image
+
+  &__image {
+  }
+
+  // .previous__hover
+
+  &__hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  // .previous__name
+
+  &__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.44;
+    margin-bottom: 6px;
+    color: #ffffff;
+  }
+
+  // .previous__location
+
+  &__location {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  // .previous__button
+
+  &__button {
+    margin-top: auto;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 50%;
+    outline: none;
+  }
+
+  // .previous__button-arrow
+
+  &__button-arrow {
+    fill: #fff;
+    width: 20px;
+  }
+}

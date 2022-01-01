@@ -1,0 +1,140 @@
+.blog-posts {
+  padding: 150px 0 100px;
+  // .blog-posts__title
+
+  &__title {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.33;
+    color: #222222;
+    margin-bottom: 55px;
+  }
+
+  // .blog-posts__list
+
+  &__list {
+    margin-bottom: 55px;
+  }
+
+  // .blog-posts__item
+
+  &__item {
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // .blog-posts__link
+
+  &__link {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    text-transform: uppercase;
+
+    color: rgba(34, 34, 34, 0.62);
+
+    &.active {
+      color: #222222;
+    }
+  }
+
+  // .blog-posts__all-posts
+
+  &__all-posts {
+  }
+
+  // .blog-posts__all-posts-link
+
+  &__all-posts-link {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    text-transform: uppercase;
+
+    color: #203ca7;
+  }
+
+  // .blog-posts__all-posts-link-svg
+
+  &__all-posts-link-svg {
+  }
+
+  // .blog-posts__cards
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  // .blog-posts__card
+
+  &__card {
+    flex: 0 0 260px;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .blog-posts__card-text {
+        color: #203ca7;
+      }
+    }
+  }
+
+  // .blog-posts__card-category
+
+  &__card-category {
+    position: absolute;
+    top: 24px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    text-transform: uppercase;
+    color: #203ca7;
+    background-color: #fff;
+    padding: 0 14px;
+  }
+
+  // .blog-posts__card-foto
+
+  &__card-foto {
+    & img {
+      width: fit-content;
+    }
+    margin-bottom: 6px;
+  }
+
+  // .blog-posts__card-date
+
+  &__card-date {
+    margin-bottom: 6px;
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+    color: rgba(34, 34, 34, 0.62);
+  }
+
+  // .blog-posts__card-text
+
+  &__card-text {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #222222;
+  }
+}

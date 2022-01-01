@@ -1,0 +1,73 @@
+.about {
+  padding: 150px 0 0 0;
+  font-family: "SF Pro", Arial, Helvetica, sans-serif;
+  color: #222222;
+
+  // .about__title
+
+  &__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33;
+  }
+
+  // .about__text-bold
+
+  &__text-bold {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+  }
+
+  // .about__text
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(34, 34, 34, 0.62);
+    margin-bottom: 120px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+
+  // .about__figure
+
+  &__figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 76px;
+    border: 1px solid rgba(34, 34, 34, 0.26);
+    border-radius: 50%;
+    margin-bottom: 28px;
+  }
+
+  // .about__name
+
+  &__name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.44;
+    margin-bottom: 12px;
+  }
+
+  // .about__description
+
+  &__description {
+    text-align: center;
+    width: 260px;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(34, 34, 34, 0.62);
+  }
+}

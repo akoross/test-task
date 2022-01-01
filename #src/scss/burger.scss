@@ -1,0 +1,40 @@
+.burger {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  justify-content: flex-end;
+
+  // .burger__button
+
+  &__button {
+    display: flex;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+
+  // .burger__button-icon
+
+  &__button-icon {
+    position: relative;
+    width: 20px;
+    border: 1px solid #fff;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: -1px;
+      width: 20px;
+      border: 1px solid #fff;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: -1px;
+      width: 20px;
+      border: 1px solid #fff;
+    }
+  }
+}
