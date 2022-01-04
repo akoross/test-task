@@ -4,6 +4,10 @@
   color: #fff;
   font-family: "SF Pro", Arial, Helvetica, sans-serif;
 
+  @media (max-width: 800px) {
+    padding: 50px 0;
+  }
+
   // .testimonials__title
 
   &__title {
@@ -88,6 +92,10 @@
     background: transparent;
     outline: none;
     border: none;
+
+    &:disabled {
+      opacity: 0.62;
+    }
   }
 
   // .testimonials__toggle-left

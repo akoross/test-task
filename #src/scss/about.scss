@@ -3,6 +3,17 @@
   font-family: "SF Pro", Arial, Helvetica, sans-serif;
   color: #222222;
 
+  @media (max-width: 800px) {
+    padding-top: 100px;
+  }
+  @media (max-width: 500px) {
+    padding-top: 60px;
+  }
+
+  & .container {
+    border-bottom: 2px solid #dedede;
+  }
+
   // .about__title
 
   &__title {
@@ -29,6 +40,10 @@
     line-height: 1.62;
     color: rgba(34, 34, 34, 0.62);
     margin-bottom: 120px;
+
+    @media (max-width: 800px) {
+      margin-bottom: 30px;
+    }
   }
 
   &__item {
@@ -37,6 +52,9 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 150px;
+    @media (max-width: 800px) {
+      margin-bottom: 30px;
+    }
   }
 
   // .about__figure

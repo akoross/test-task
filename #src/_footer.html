@@ -1,55 +1,74 @@
 <footer class="footer">
-  <div class="footer__location">
-    <div class="footer__location-point">
-      <div class="footer__location-point-label">
-        Special Mod
+  <div class="row">
+    <div class="footer__location col-12 col-md-6">
+      <div class="footer__location-point">
+        <div class="footer__location-point-label">
+          Special Mod
+        </div>
+      </div>
+      <div class="footer__location-map">
+        <picture>
+          <source type="image/webp" srcset="./img/footer/map@1.webp 1x, ./img/footer/map@2.webp 2x">
+          <img src="./img/footer/map@1.jpg" srcset="./img/footer/map@1.jpg 1x, ./img/footer/map@2.jpg 2x" alt=""
+            width="700" height="700">
+        </picture>
       </div>
     </div>
-    <div class="footer__location-map">
-      <picture>
-        <source type="image/webp" srcset="./img/footer/map@1.webp 1x, ./img/footer/map@2.webp 2x">
-        <img src="./img/footer/map@1.jpg" srcset="./img/footer/map@1.jpg 1x, ./img/footer/map@2.jpg 2x" alt=""
-          width="700" height="700">
-      </picture>
-    </div>
-  </div>
-  <div class="footer__testimonials">
-    <h3 class="footer__testimonials-title">Testimonials</h3>
-    <form class="footer__testimonials-form testimonials-form">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" class="testimonials-form__name" placeholder="Your Name">
-      <label for="phone">Phone</label>
-      <input type="phone" id="phone" class="testimonials-form__phone" placeholder="Phone">
-      <label for="email">Email</label>
-      <input type="email" id="email" class="testimonials-form__email" placeholder="Email">
-      <label for="message">Message</label>
-      <input type="text" id="message" class="testimonials-form__message" placeholder="Message">
-      <button type="submit" class="testimonials-form__submit">
-        Send Message
-      </button>
-    </form>
-    <div class="footer__links">
-      <div class="footer__logo">
-        <a href="#" class="footer__logo-link">
-          <img src="./img/icons/logo.svg" alt="Special Mod Logotip" width="126" height="26">
-        </a>
-      </div>
-      <div class="footer__social">
-        <a href="#" class="footer__social-link">
-          <svg class="footer__social-svg" xmlns=" http://www.w3.org/2000/svg" width="16" height="13"
-            fill="rgba(255, 255, 255, 0.62)">
-            <use xlink:href="./img/icons/icons.svg#twitter"></use>
-        </a>
-        <a href="#" class="footer__social-link">
-          <svg class="footer__social-svg" xmlns=" http://www.w3.org/2000/svg" width="16" height="16"
-            fill="rgba(255, 255, 255, 0.62)">
-            <use xlink:href="./img/icons/icons.svg#instagram"></use>
-        </a>
-        <a href="#" class="footer__social-link">
-          <svg class="footer__social-svg" xmlns=" http://www.w3.org/2000/svg" width="16" height="16"
-            fill="rgba(255, 255, 255, 0.62)">
-            <use xlink:href="./img/icons/icons.svg#facebook"></use>
-        </a>
+    <div class="footer__testimonials col-12 col-md-6">
+      <h3 class="footer__testimonials-title">Testimonials</h3>
+      <form class="footer__testimonials-form testimonials-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" class="testimonials-form__name" placeholder="Your Name">
+        <label for="phone">Phone</label>
+        <input type="phone" id="phone" class="testimonials-form__phone" placeholder="Phone">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="testimonials-form__email" placeholder="Email">
+        <label for="message">Message</label>
+        <input type="text" id="message" class="testimonials-form__message" placeholder="Message">
+        <button type="submit" class="testimonials-form__submit">
+          Send Message
+        </button>
+      </form>
+      <div class="footer__links">
+        <div class="footer__logo">
+          <a href="#" class="footer__logo-link">
+            <img src="./img/icons/logo.svg" alt="Special Mod Logotip" width="126" height="26">
+          </a>
+        </div>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg"
+              fill="rgba(255, 255, 255, 0.62)">
+              <path
+                d="M16 2.039C15.405 2.3 14.771 2.473 14.11 2.557C14.79 2.151 15.309 1.513 15.553 0.744C14.919 1.122 14.219 1.389 13.473 1.538C12.871 0.897 12.013 0.5 11.077 0.5C9.261 0.5 7.799 1.974 7.799 3.781C7.799 4.041 7.821 4.291 7.875 4.529C5.148 4.396 2.735 3.089 1.114 1.098C0.831 1.589 0.665 2.151 0.665 2.756C0.665 3.892 1.25 4.899 2.122 5.482C1.595 5.472 1.078 5.319 0.64 5.078C0.64 5.088 0.64 5.101 0.64 5.114C0.64 6.708 1.777 8.032 3.268 8.337C3.001 8.41 2.71 8.445 2.408 8.445C2.198 8.445 1.986 8.433 1.787 8.389C2.212 9.688 3.418 10.643 4.852 10.674C3.736 11.547 2.319 12.073 0.785 12.073C0.516 12.073 0.258 12.061 0 12.028C1.453 12.965 3.175 13.5 5.032 13.5C11.068 13.5 14.368 8.5 14.368 4.166C14.368 4.021 14.363 3.881 14.356 3.742C15.007 3.28 15.554 2.703 16 2.039Z" />
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+              fill="rgba(255, 255, 255, 0.62)">
+              <g clip-path="url(#clip0_10_159)">
+                <path
+                  d="M8.00279 3.89209C5.73413 3.89209 3.89746 5.73076 3.89746 7.99742C3.89746 10.2661 5.73613 12.1028 8.00279 12.1028C10.2715 12.1028 12.1081 10.2641 12.1081 7.99742C12.1081 5.72876 10.2695 3.89209 8.00279 3.89209V3.89209ZM8.00279 10.6621C6.53013 10.6621 5.33813 9.46942 5.33813 7.99742C5.33813 6.52542 6.53079 5.33276 8.00279 5.33276C9.47479 5.33276 10.6675 6.52542 10.6675 7.99742C10.6681 9.46942 9.47546 10.6621 8.00279 10.6621V10.6621Z" />
+                <path
+                  d="M11.2986 0.0505019C9.82657 -0.0181648 6.18057 -0.0148314 4.70724 0.0505019C3.41257 0.111169 2.27057 0.423835 1.34991 1.3445C-0.188759 2.88317 0.00790737 4.9565 0.00790737 7.99717C0.00790737 11.1092 -0.165426 13.1345 1.34991 14.6498C2.89457 16.1938 4.99791 15.9918 8.00257 15.9918C11.0852 15.9918 12.1492 15.9938 13.2392 15.5718C14.7212 14.9965 15.8399 13.6718 15.9492 11.2925C16.0186 9.81983 16.0146 6.1745 15.9492 4.70117C15.8172 1.8925 14.3099 0.189169 11.2986 0.0505019V0.0505019ZM13.6286 13.6318C12.6199 14.6405 11.2206 14.5505 7.98324 14.5505C4.64991 14.5505 3.31324 14.5998 2.33791 13.6218C1.21457 12.5038 1.41791 10.7085 1.41791 7.9865C1.41791 4.30317 1.03991 1.6505 4.73657 1.46117C5.58591 1.43117 5.83591 1.42117 7.97391 1.42117L8.00391 1.44117C11.5566 1.44117 14.3439 1.06917 14.5112 4.76517C14.5492 5.6085 14.5579 5.86184 14.5579 7.9965C14.5572 11.2912 14.6199 12.6358 13.6286 13.6318V13.6318Z" />
+                <path
+                  d="M12.2706 4.68917C12.8004 4.68917 13.2299 4.25966 13.2299 3.72984C13.2299 3.20001 12.8004 2.77051 12.2706 2.77051C11.7408 2.77051 11.3113 3.20001 11.3113 3.72984C11.3113 4.25966 11.7408 4.68917 12.2706 4.68917Z" />
+              </g>
+              <defs>
+                <clipPath id="clip0_10_159">
+                  <rect width="16" height="16" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg width="9" height="16" viewBox="0 0 9 16" xmlns="http://www.w3.org/2000/svg"
+              fill="rgba(255, 255, 255, 0.62)">
+              <path
+                d="M6.66476 2.65667H8.12542V0.112667C7.87342 0.078 7.00676 0 5.99742 0C3.89142 0 2.44876 1.32467 2.44876 3.75933V6H0.124756V8.844H2.44876V16H5.29809V8.84467H7.52809L7.88209 6.00067H5.29742V4.04133C5.29809 3.21933 5.51942 2.65667 6.66476 2.65667V2.65667Z" />
+            </svg>
+          </a>
+        </div>
       </div>
     </div>
   </div>

@@ -1,9 +1,13 @@
 .footer {
-  display: flex;
+  & .row {
+    width: 100%;
+    margin: 0;
+  }
+  box-sizing: border-box;
   // .footer__location
 
   &__location {
-    flex: 50%;
+    padding: 0;
     position: relative;
   }
 
@@ -69,11 +73,14 @@
   // .footer__testimonials
 
   &__testimonials {
-    flex: 50%;
     background: #222222;
     color: #fff;
     font-family: "SF Pro";
     padding: 100px 42px 32px 42px;
+
+    @media (max-width: 800px) {
+      padding-top: 50px;
+    }
   }
 
   // .footer__testimonials-title
@@ -90,6 +97,10 @@
   &__testimonials-form {
     max-width: 538px;
     margin-bottom: 32px;
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
 
     & > input {
       margin-bottom: 32px;
@@ -113,6 +124,9 @@
   // .footer__logo-link
 
   &__logo-link {
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   // .footer__social
@@ -128,11 +142,10 @@
     &:first-child {
       margin-left: 0;
     }
-  }
 
-  // .footer__social-svg
-
-  &__social-svg {
+    &:hover svg {
+      fill: #fff;
+    }
   }
 }
 .testimonials-form {
@@ -142,6 +155,10 @@
   justify-content: space-between;
   padding-bottom: 164px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+
+  @media (max-width: 800px) {
+    padding-bottom: 100px;
+  }
 
   & label {
     visibility: hidden;
@@ -166,8 +183,12 @@
     line-height: 1.62;
     color: #fff;
 
-    & input[placeholder] {
+    &[placeholder] {
       color: rgba(255, 255, 255, 0.32);
+    }
+
+    &:hover {
+      border-bottom-color: rgba(255, 255, 255, 0.2);
     }
   }
 
@@ -180,13 +201,13 @@
   // .testimonials-form__phone
 
   &__phone {
-    flex: 0 0 calc((538px - 32px) / 2);
+    flex: 0 0 45%;
   }
 
   // .testimonials-form__email
 
   &__email {
-    flex: 0 0 calc((538px - 32px) / 2);
+    flex: 0 0 45%;
   }
 
   // .testimonials-form__message
